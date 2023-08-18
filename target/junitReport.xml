@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="54.442" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="To Verify The Luma E-Commerce Shopping Application" name="User should be enter the URL navigates to the LUMA webpage" time="19.447">
+<system-out><![CDATA[
+Given User should be in homepage of LUMA....................................passed
+Then User should be click on the Create An Account button...................passed
+And It Navigates to Create New Customer Account webpage.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify The Luma E-Commerce Shopping Application" name="User Should be Enter The Firstname,Lastname,Email,Password,Confirm Password With Valid Credentials" time="8.948">
+<system-out><![CDATA[
+Given User should be in the Account Creation Page...........................passed
+When User should be enter the Firstname,Lastname,Email,Password and Confirm Password.passed
+And USer should be click the Create An Account button.......................passed
+Then It Navigates to My Account webpage.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify The Luma E-Commerce Shopping Application" name="User Should be Click The Mens-Top-Jackets	and select the Product" time="7.137">
+<system-out><![CDATA[
+Given User should be in the My Account Page.................................passed
+When User should be click the Men and Moves to Top and then click the Jackets.passed
+And User should be select the product and click.............................passed
+Then It Navigates to Product page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify The Luma E-Commerce Shopping Application" name="User Should be Select the Size, Colour and Quantity" time="0.49">
+<system-out><![CDATA[
+Given User should be in the Product Page....................................passed
+When User should be select the "L" Size of the Product......................passed
+When User should be select the Colour of the Product........................passed
+And User should be select the Quantity of the Product.......................passed
+And User should be click the Add to Cart button and click the Shopping Cart Link.passed
+Then It Navigates to Shopping Cart Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify The Luma E-Commerce Shopping Application" name="User Should be Click the Proceed To Check" time="13.133">
+<system-out><![CDATA[
+Given User should be in the Shopping Cart Page..............................passed
+And User should be clik the Proceed to Checkout button......................passed
+Then It Navigates to Shopping Address Checkout Page.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify The Luma E-Commerce Shopping Application" name="User Should be Enter the Address Details in the Field" time="4.671">
+<system-out><![CDATA[
+Given User should be in the CheckoutPage....................................passed
+Given User should be enter the Street,Street1,Street2,City,State,Zip and Phone number in the Field.passed
+Given User should be click the Shipping Methods.............................passed
+And User should be click the Next button....................................passed
+Then It Navigates to Review our Payments and Checkout Page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Verify The Luma E-Commerce Shopping Application" name="User Should be verify And Place The Order" time="0.268">
+<system-out><![CDATA[
+Given User should be in Order Place Page....................................passed
+When User should be verify the Payment method...............................passed
+And User should be click the Place order button.............................passed
+Then It Navigates to the Successful Page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
